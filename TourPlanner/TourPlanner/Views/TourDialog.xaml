@@ -1,0 +1,106 @@
+﻿<Window x:Class="TourPlanner.Views.TourDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Tour" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" 
+        ResizeMode="CanResize"
+        Height="450" Width="500">
+    <Window.Resources>
+        <Style x:Key="DescriptionStyle" TargetType="TextBox">
+            <Setter Property="Margin" Value="15 5"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Top"></Setter>
+            <Setter Property="Padding" Value="10 10"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="AcceptsReturn" Value="True"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="15 5"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Padding" Value="10 0"></Setter>
+        </Style>
+        <Style x:Key="HeadingStyle" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="FontWeight" Value="Medium"></Setter>
+        </Style>
+        <Style x:Key="FormTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="Margin" Value="15 0"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontWeight" Value="Medium"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="15 5"></Setter>
+            <Setter Property="Padding" Value="10 0"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Style="{StaticResource HeadingStyle}" 
+                   Text="{Binding TourDialogHeading}"/>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource FormTextBlockStyle}">Name*:</TextBlock>
+            <TextBox Grid.Row="0" Grid.Column="1" 
+                     Text="{Binding TourDialogName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                     x:Name="NameTextBox"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Style="{StaticResource FormTextBlockStyle}">Description*:</TextBlock>
+            <TextBox Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"
+                     Text="{Binding TourDialogDescription, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                     x:Name="DescriptionTextBox" Style="{StaticResource DescriptionStyle}"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Style="{StaticResource FormTextBlockStyle}">Start*:</TextBlock>
+            <TextBox Grid.Row="3" Grid.Column="1"
+                     Text="{Binding TourDialogStart, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     x:Name="TourStartTextBox"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Style="{StaticResource FormTextBlockStyle}">Destination*:</TextBlock>
+            <TextBox Grid.Row="4" Grid.Column="1" 
+                     Text="{Binding TourDialogDestination, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     x:Name="TourDestinationTextBox"/>
+            <TextBlock Grid.Row="5" Grid.Column="0" Style="{StaticResource FormTextBlockStyle}">Transport Type*:</TextBlock>
+            <ComboBox Grid.Row="5" Grid.Column="1" x:Name="TourTransportTypeComboBox"
+                      SelectedIndex="{Binding TourDialogTransportType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <ComboBoxItem IsSelected="True"  Content="Car"/>
+                <ComboBoxItem Content="Bus"/>
+                <ComboBoxItem Content="Bike"/>
+                <ComboBoxItem Content="Walk"/>
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="CancelNewTourButton" Content="Cancel"
+                    IsCancel="True"/>
+            <Button Grid.Column="1" x:Name="SubmitNewTourButton" Content="Submit" IsDefault="True"
+                    Command="{Binding SubmitCommand}"/>
+        </Grid>
+    </Grid>
+</Window>

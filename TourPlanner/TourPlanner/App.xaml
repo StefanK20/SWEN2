@@ -1,0 +1,15 @@
+﻿<Application x:Class="TourPlanner.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Startup="App_OnStartup">
+    <Application.Resources>
+        <Style TargetType="Border">
+            <Setter Property="CornerRadius" Value="4" />
+        </Style>
+        <ResourceDictionary x:Key="Icons">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary x:Name="Icons" Source="Views/Icons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
