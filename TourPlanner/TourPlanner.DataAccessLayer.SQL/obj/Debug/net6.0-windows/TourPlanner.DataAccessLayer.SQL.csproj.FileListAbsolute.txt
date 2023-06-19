@@ -1,0 +1,17 @@
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.deps.json
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\bin\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.AssemblyInfo.cs
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.csproj.CopyComplete
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\refint\TourPlanner.DataAccessLayer.SQL.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.SQL.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.SQL\obj\Debug\net6.0-windows\ref\TourPlanner.DataAccessLayer.SQL.dll
