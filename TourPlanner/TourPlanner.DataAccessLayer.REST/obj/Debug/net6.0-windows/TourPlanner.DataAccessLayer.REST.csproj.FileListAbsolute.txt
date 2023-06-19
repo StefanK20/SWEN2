@@ -1,0 +1,17 @@
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.deps.json
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\bin\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.AssemblyInfo.cs
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.csproj.CopyComplete
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\refint\TourPlanner.DataAccessLayer.REST.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.REST.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer.REST\obj\Debug\net6.0-windows\ref\TourPlanner.DataAccessLayer.REST.dll

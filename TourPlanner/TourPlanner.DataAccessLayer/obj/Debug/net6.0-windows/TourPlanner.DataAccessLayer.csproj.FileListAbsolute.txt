@@ -1,0 +1,15 @@
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.deps.json
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DataAccessLayer.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.AssemblyInfo.cs
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.csproj.CopyComplete
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\refint\TourPlanner.DataAccessLayer.dll
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DataAccessLayer.pdb
+C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\ref\TourPlanner.DataAccessLayer.dll
