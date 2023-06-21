@@ -4,7 +4,7 @@ using System.Linq;
 using Moq;
 using NUnit.Framework;
 using TourPlanner.BusinessLayer;
-using TourPlanner.BusinessLayer.Abstract;
+using TourPlanner.BusinessLayer.Interface;
 using TourPlanner.DataAccessLayer.DAO;
 using TourPlanner.Models;
 

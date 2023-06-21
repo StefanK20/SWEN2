@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer.Abstract;
+using TourPlanner.BusinessLayer.Interface;
 
 namespace TourPlanner.BusinessLayer
 {

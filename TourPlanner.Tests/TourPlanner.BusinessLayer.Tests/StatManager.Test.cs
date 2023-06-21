@@ -1,7 +1,7 @@
 ﻿using Moq;
 using NUnit.Framework;
 using TourPlanner.BusinessLayer;
-using TourPlanner.BusinessLayer.Abstract;
+using TourPlanner.BusinessLayer.Interface;
 using TourPlanner.DataAccessLayer.DAO;
 
 namespace TourPlannerBL.Tests {

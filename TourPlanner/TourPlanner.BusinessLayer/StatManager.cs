@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer.Abstract;
+using TourPlanner.BusinessLayer.Interface;
 using TourPlanner.DataAccessLayer.DAO;
 using TourPlanner.DataAccessLayer.SQL;
 

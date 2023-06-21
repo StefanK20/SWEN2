@@ -5,14 +5,13 @@ using System.Threading.Tasks;
 using Moq;
 using NUnit.Framework;
 using TourPlanner.BusinessLayer;
-using TourPlanner.BusinessLayer.Abstract;
-using TourPlanner.BusinessLayer.Exceptions;
+using TourPlanner.BusinessLayer.Interface;
 using TourPlanner.DataAccessLayer.DAO;
 using TourPlanner.Models;
 
 namespace TourPlannerBL.Tests
 {
-	public class TestTourManager {
+    public class TestTourManager {
 
 		private ITourManager _manager;
 		private const double Distance_WienGraz = 192.30; 

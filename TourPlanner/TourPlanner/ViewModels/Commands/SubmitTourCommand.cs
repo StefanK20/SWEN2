@@ -1,14 +1,15 @@
 ﻿using System.Windows;
-using TourPlanner.BusinessLayer.Exceptions;
+using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
 using TourPlanner.ViewModels.Interface;
 
-namespace TourPlanner.ViewModels.Commands {
+namespace TourPlanner.ViewModels.Commands
+{
 
-	/// <summary>
-	///     Button which validates input of TourDialog and sends it to the business layer
-	/// </summary>
-	internal class SubmitTourCommand : BaseCommand {
+    /// <summary>
+    ///     Button which validates input of TourDialog and sends it to the business layer
+    /// </summary>
+    internal class SubmitTourCommand : BaseCommand {
 		public TourDialogViewModel TourDialogViewModel { get; }
 		public TourListViewModel TourListViewModel { get; }
 		public bool IsUpdate { get; }

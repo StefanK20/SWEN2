@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer.Abstract;
+using TourPlanner.BusinessLayer.Interface;
 using TourPlanner.DataAccessLayer.DAO;
 using TourPlanner.DataAccessLayer.SQL;
 using TourPlanner.Models;
