@@ -1,0 +1,464 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+        "projectName": "TourPlanner.BusinessLayer",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\TourPlanner.DataAccessLayer.REST.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\TourPlanner.DataAccessLayer.REST.csproj"
+              },
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\TourPlanner.DataAccessLayer.SQL.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\TourPlanner.DataAccessLayer.SQL.csproj"
+              },
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2022.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\TourPlanner.DataAccessLayer.REST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\TourPlanner.DataAccessLayer.REST.csproj",
+        "projectName": "TourPlanner.DataAccessLayer.REST",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\TourPlanner.DataAccessLayer.REST.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.REST\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "JObject": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\TourPlanner.DataAccessLayer.SQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\TourPlanner.DataAccessLayer.SQL.csproj",
+        "projectName": "TourPlanner.DataAccessLayer.SQL",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\TourPlanner.DataAccessLayer.SQL.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer.SQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2022.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+        "projectName": "TourPlanner.DataAccessLayer",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj",
+        "projectName": "TourPlanner.Models",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2022.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
