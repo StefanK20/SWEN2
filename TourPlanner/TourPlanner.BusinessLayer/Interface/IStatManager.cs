@@ -1,4 +1,4 @@
-﻿namespace TourPlanner.BusinessLayer.Interface
+﻿namespace TourPlanner.BL.Interface
 {
     public interface IStatManager {
 		int GetLogCount(int id);

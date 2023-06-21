@@ -3,15 +3,15 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
 using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 using TourPlanner.Views;
+using TourPlanner.BL.Implementation;
 
 namespace TourPlanner.ViewModels
 {
-	public class LogListViewModel : BaseViewModel {
+    public class LogListViewModel : BaseViewModel {
 		private readonly ILogger _logger; 
 
 	    public ICommand? AddLogDialogCommand { get; set; }

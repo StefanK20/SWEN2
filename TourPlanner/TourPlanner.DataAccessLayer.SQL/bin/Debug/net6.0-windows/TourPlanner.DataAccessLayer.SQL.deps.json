@@ -12,7 +12,7 @@
           "Microsoft.Extensions.Logging.Console": "6.0.0",
           "Npgsql": "7.0.4",
           "QuestPDF": "2022.5.0",
-          "TourPlanner.DataAccessLayer": "1.0.0"
+          "TourPlanner.DAL": "1.0.0"
         },
         "runtime": {
           "TourPlanner.DataAccessLayer.SQL.dll": {}
@@ -311,7 +311,7 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
-      "TourPlanner.DataAccessLayer/1.0.0": {
+      "TourPlanner.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
@@ -323,7 +323,7 @@
           "TourPlanner.Models": "1.0.0"
         },
         "runtime": {
-          "TourPlanner.DataAccessLayer.dll": {}
+          "TourPlanner.DAL.dll": {}
         }
       },
       "TourPlanner.Models/1.0.0": {
@@ -526,7 +526,7 @@
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
-    "TourPlanner.DataAccessLayer/1.0.0": {
+    "TourPlanner.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

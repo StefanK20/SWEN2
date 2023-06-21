@@ -32,8 +32,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+              "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj"
               },
               "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
                 "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"
@@ -91,12 +91,12 @@
         }
       }
     },
-    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
+    "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
-        "projectName": "TourPlanner.DataAccessLayer",
-        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj",
+        "projectName": "TourPlanner.DAL",
+        "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",

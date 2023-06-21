@@ -2,11 +2,11 @@ using System.Net.Http;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using TourPlanner.DataAccessLayer.Common;
-using TourPlanner.DataAccessLayer.Configuration;
+using TourPlanner.DAL.Config;
 using TourPlanner.Models;
+using TourPlanner.DAL.Interface.REST;
 
-namespace TourPlanner.DataAccessLayer.REST
+namespace TourPlanner.DAL.REST
 {
     public class HttpRequest : IHttpRequest {
 	    private readonly ILogger _logger; 

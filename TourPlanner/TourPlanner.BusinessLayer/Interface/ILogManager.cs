@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using TourPlanner.Models;
 
-namespace TourPlanner.BusinessLayer.Interface
+namespace TourPlanner.BL.Interface
 {
     public interface ILogManager {
 	    Log CreateLog(Log log);

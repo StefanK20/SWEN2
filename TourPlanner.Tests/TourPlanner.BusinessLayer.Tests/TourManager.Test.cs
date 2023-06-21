@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Moq;
 using NUnit.Framework;
-using TourPlanner.BusinessLayer;
-using TourPlanner.BusinessLayer.Interface;
-using TourPlanner.DataAccessLayer.DAO;
+using TourPlanner.BL.Implementation;
+using TourPlanner.BL.Interface;
+using TourPlanner.DAL.Interface.DAO;
 using TourPlanner.Models;
 
 namespace TourPlannerBL.Tests

@@ -5,10 +5,10 @@ using Microsoft.Extensions.Logging;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
-using TourPlanner.DataAccessLayer.Configuration;
+using TourPlanner.DAL.Config;
 using TourPlanner.Models;
 
-namespace TourPlanner.BusinessLayer.ReportGeneration {
+namespace TourPlanner.BL.ReportGeneration {
 	public class TourReportGenerator {
 		/// <summary>
 		/// creates the PDF Report for a specific Tour and saves it in "bin/Debug/Resources/reports/"

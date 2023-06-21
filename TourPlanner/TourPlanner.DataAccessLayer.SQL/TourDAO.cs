@@ -5,11 +5,11 @@ using System.Data;
 using System.Data.Common;
 using System.Linq;
 using Microsoft.Extensions.Logging;
-using TourPlanner.DataAccessLayer.Common;
-using TourPlanner.DataAccessLayer.DAO;
 using TourPlanner.Models;
+using TourPlanner.DAL.Interface.SQL;
+using TourPlanner.DAL.Interface.DAO;
 
-namespace TourPlanner.DataAccessLayer.SQL
+namespace TourPlanner.DAL.SQL
 {
     public class TourDAO : ITourDAO {
 	    private readonly ILogger _logger; 

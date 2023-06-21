@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Input;
 using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer;
+using TourPlanner.BL.Implementation;
 using TourPlanner.Models;
 using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;

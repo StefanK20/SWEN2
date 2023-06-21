@@ -1,0 +1,15 @@
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DAL.deps.json
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DAL.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.DAL.pdb
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\bin\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.csproj.AssemblyReference.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.AssemblyInfoInputs.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.AssemblyInfo.cs
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.csproj.CopyComplete
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\refint\TourPlanner.DAL.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\TourPlanner.DAL.pdb
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.DataAccessLayer\obj\Debug\net6.0-windows\ref\TourPlanner.DAL.dll

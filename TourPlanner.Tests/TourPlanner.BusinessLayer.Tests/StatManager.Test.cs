@@ -1,11 +1,12 @@
 ﻿using Moq;
 using NUnit.Framework;
-using TourPlanner.BusinessLayer;
-using TourPlanner.BusinessLayer.Interface;
-using TourPlanner.DataAccessLayer.DAO;
+using TourPlanner.BL;
+using TourPlanner.BL.Interface;
+using TourPlanner.DAL.Interface.DAO;
 
-namespace TourPlannerBL.Tests {
-	public class StatManager_Test {
+namespace TourPlannerBL.Tests
+{
+    public class StatManager_Test {
 		private IStatManager _manager;
 		private const int Id = 1;
 		private const int Count = 10;

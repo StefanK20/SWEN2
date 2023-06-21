@@ -2,11 +2,12 @@
 using System.Data;
 using System.Data.Common;
 using Microsoft.Extensions.Logging;
-using TourPlanner.DataAccessLayer.Common;
-using TourPlanner.DataAccessLayer.DAO;
+using TourPlanner.DAL.Interface.DAO;
+using TourPlanner.DAL.Interface.SQL;
 
-namespace TourPlanner.DataAccessLayer.SQL {
-	public class StatDAO : IStatDAO {
+namespace TourPlanner.DAL.SQL
+{
+    public class StatDAO : IStatDAO {
 		private readonly ILogger _logger; 
 		private readonly IDatabase _db;
 

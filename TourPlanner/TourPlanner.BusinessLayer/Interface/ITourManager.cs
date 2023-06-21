@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using TourPlanner.Models;
 
-namespace TourPlanner.BusinessLayer.Interface
+namespace TourPlanner.BL.Interface
 {
     public interface ITourManager {
 	    Task<Tour> CreateTour(Tour tour);

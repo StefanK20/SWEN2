@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TourPlanner.DataAccessLayer.SQL")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TourPlanner.DAL.SQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TourPlanner.DataAccessLayer.SQL")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TourPlanner.DataAccessLayer.SQL")]
+[assembly: System.Reflection.AssemblyProductAttribute("TourPlanner.DAL.SQL")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TourPlanner.DAL.SQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

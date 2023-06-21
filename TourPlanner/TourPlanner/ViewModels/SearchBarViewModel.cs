@@ -2,14 +2,14 @@
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
 using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
+using TourPlanner.BL.Implementation;
 
 namespace TourPlanner.ViewModels
 {
-	public class SearchBarViewModel : BaseViewModel
+    public class SearchBarViewModel : BaseViewModel
     {
 		private readonly ILogger _logger;
 		public ICommand SearchCommand { get; }

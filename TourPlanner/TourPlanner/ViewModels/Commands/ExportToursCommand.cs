@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer;
+using TourPlanner.BL.Implementation;
 using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels.Commands

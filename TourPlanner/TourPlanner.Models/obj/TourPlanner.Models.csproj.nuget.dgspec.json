@@ -46,7 +46,7 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "Npgsql": {
               "target": "Package",
@@ -54,7 +54,7 @@
             },
             "QuestPDF": {
               "target": "Package",
-              "version": "[2022.5.0, )"
+              "version": "[2023.5.3, )"
             }
           },
           "imports": [

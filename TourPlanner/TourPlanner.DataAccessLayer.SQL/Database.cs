@@ -2,10 +2,10 @@ using System;
 using System.Data;
 using System.Data.Common;
 using Npgsql;
-using TourPlanner.DataAccessLayer.Common;
-using TourPlanner.DataAccessLayer.Configuration;
+using TourPlanner.DAL.Config;
+using TourPlanner.DAL.Interface.SQL;
 
-namespace TourPlanner.DataAccessLayer.SQL
+namespace TourPlanner.DAL.SQL
 {
     public class Database : IDatabase {
 	    private readonly string _connectionString;

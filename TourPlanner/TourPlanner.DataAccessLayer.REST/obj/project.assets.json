@@ -499,7 +499,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TourPlanner.DataAccessLayer/1.0.0": {
+      "TourPlanner.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -513,10 +513,10 @@
           "TourPlanner.Models": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TourPlanner.DataAccessLayer.dll": {}
+          "bin/placeholder/TourPlanner.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TourPlanner.DataAccessLayer.dll": {}
+          "bin/placeholder/TourPlanner.DAL.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -1258,10 +1258,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "TourPlanner.DataAccessLayer/1.0.0": {
+    "TourPlanner.DAL/1.0.0": {
       "type": "project",
-      "path": "../TourPlanner.DataAccessLayer/TourPlanner.DataAccessLayer.csproj",
-      "msbuildProject": "../TourPlanner.DataAccessLayer/TourPlanner.DataAccessLayer.csproj"
+      "path": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj",
+      "msbuildProject": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj"
     },
     "TourPlanner.Models/1.0.0": {
       "type": "project",
@@ -1275,7 +1275,7 @@
       "Microsoft.Extensions.Logging >= 6.0.0",
       "Microsoft.Extensions.Logging.Console >= 6.0.0",
       "Npgsql >= 7.0.4",
-      "TourPlanner.DataAccessLayer >= 1.0.0",
+      "TourPlanner.DAL >= 1.0.0",
       "TourPlanner.Models >= 1.0.0"
     ]
   },
@@ -1311,8 +1311,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DataAccessLayer.csproj"
+            "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj": {
+              "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.DataAccessLayer\\TourPlanner.DAL.csproj"
             },
             "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
               "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"

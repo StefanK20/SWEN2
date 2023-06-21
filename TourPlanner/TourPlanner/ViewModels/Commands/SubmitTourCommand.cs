@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using TourPlanner.BusinessLayer;
+using TourPlanner.BL.Implementation;
 using TourPlanner.Models;
 using TourPlanner.ViewModels.Interface;
 

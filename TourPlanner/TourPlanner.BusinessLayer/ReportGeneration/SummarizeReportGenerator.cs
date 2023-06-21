@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
-using TourPlanner.DataAccessLayer.Configuration;
-using TourPlanner.DataAccessLayer.SQL;
+using TourPlanner.DAL.Config;
+using TourPlanner.DAL.SQL;
 using TourPlanner.Models;
 
-namespace TourPlanner.BusinessLayer.ReportGeneration {
+namespace TourPlanner.BL.ReportGeneration {
 	public class SummarizeReportGenerator {
 		private ObservableCollection<Log>? _logs;
 		private ObservableCollection<Tour>? _tours;

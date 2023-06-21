@@ -5,16 +5,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Microsoft.Extensions.Logging;
-using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
 using TourPlanner.Helper;
 using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 using TourPlanner.Views;
+using TourPlanner.BL.Implementation;
 
 namespace TourPlanner.ViewModels
 {
-	public class TourListViewModel : BaseViewModel {
+    public class TourListViewModel : BaseViewModel {
 
 		private readonly ILogger _logger; 
 
