@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.IO;
 using System.Windows;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels.Commands
 {

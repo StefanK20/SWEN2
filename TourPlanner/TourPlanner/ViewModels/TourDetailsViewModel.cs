@@ -1,4 +1,4 @@
-﻿using TourPlanner.ViewModels.Abstract;
+﻿using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels
 {

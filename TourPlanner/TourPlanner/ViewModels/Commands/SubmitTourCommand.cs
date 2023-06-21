@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using TourPlanner.BusinessLayer.Exceptions;
 using TourPlanner.Models;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels.Commands {
 

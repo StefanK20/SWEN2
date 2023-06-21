@@ -1,1 +1,0 @@
-﻿This Textfile is only used to retup the Resource folder for the images in the Debug directory

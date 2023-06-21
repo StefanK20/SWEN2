@@ -15,8 +15,8 @@ namespace TourPlannerBL.Tests
 	public class TestTourManager {
 
 		private ITourManager _manager;
-		private const double Distance_WienGraz = 193.1358; 
-		private const double Time_WienGraz = 7192; 
+		private const double Distance_WienGraz = 192.30; 
+		private const double Time_WienGraz = 6931; 
 
 		private readonly Tour _tour = new Tour(0, "Tour", "Description", "Wien", "Graz", TransportType.Car);
 		private readonly Tour _fullTour = new Tour(10, "Tour", "Description", "Wien", "Graz", TransportType.Car, 100, 100, "path", 5, 5);

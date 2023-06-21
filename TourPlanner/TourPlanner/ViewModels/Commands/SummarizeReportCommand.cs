@@ -3,7 +3,7 @@ using System.IO;
 using System.Windows;
 using Microsoft.Extensions.Logging;
 using TourPlanner.BusinessLayer.ReportGeneration;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels.Commands {
 	public class SummarizeReportCommand : BaseCommand {

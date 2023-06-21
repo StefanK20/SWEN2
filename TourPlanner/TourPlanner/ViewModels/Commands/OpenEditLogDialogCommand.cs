@@ -1,5 +1,5 @@
 ﻿using TourPlanner.Models;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 using TourPlanner.Views;
 
 namespace TourPlanner.ViewModels.Commands

@@ -10,3 +10,15 @@ C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.Models\obj\Debug
 C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\refint\TourPlanner.Models.dll
 C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.pdb
 C:\Users\User\Source\Repos\tour-planner\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\ref\TourPlanner.Models.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\bin\Debug\net6.0-windows\TourPlanner.Models.deps.json
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\bin\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\bin\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.csproj.AssemblyReference.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.AssemblyInfoInputs.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.AssemblyInfo.cs
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\refint\TourPlanner.Models.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\TourPlanner.Models.pdb
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner.Models\obj\Debug\net6.0-windows\ref\TourPlanner.Models.dll

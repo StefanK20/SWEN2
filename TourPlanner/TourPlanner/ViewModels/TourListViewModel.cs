@@ -7,8 +7,8 @@ using System.Windows.Input;
 using Microsoft.Extensions.Logging;
 using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
-using TourPlanner.Utility;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.Helper;
+using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 using TourPlanner.Views;
 
@@ -46,7 +46,7 @@ namespace TourPlanner.ViewModels
 				if (_selectedTour.ImagePath is not null) {
 					var path = Path.Combine(Directory.GetCurrentDirectory(), _selectedTour.ImagePath);
 					using (FileStream stream = File.Open(path, FileMode.Open)) {
-						_selectedTour.RouteImageSource = stream.ReadFully(); // Stream to byte-array, function in Utility/ViewModelHelper.cs
+						_selectedTour.RouteImageSource = stream.ReadFully(); // Stream to byte-array, function in Helper/ViewModelHelper.cs
 					}
 					OnPropertyChanged(nameof(SelectedTour));
 				}

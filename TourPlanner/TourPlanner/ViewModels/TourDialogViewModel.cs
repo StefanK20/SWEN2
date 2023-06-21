@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using TourPlanner.Models;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 
 namespace TourPlanner.ViewModels

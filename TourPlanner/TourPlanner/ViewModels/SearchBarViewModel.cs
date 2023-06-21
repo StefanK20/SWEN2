@@ -4,7 +4,7 @@ using System.Windows.Input;
 using Microsoft.Extensions.Logging;
 using TourPlanner.BusinessLayer;
 using TourPlanner.Models;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 
 namespace TourPlanner.ViewModels

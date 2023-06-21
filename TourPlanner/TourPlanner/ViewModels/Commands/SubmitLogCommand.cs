@@ -1,6 +1,6 @@
 ﻿using System;
 using TourPlanner.Models;
-using TourPlanner.ViewModels.Abstract;
+using TourPlanner.ViewModels.Interface;
 
 namespace TourPlanner.ViewModels.Commands
 {
