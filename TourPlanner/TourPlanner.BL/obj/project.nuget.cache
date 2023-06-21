@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "otlwtu0Xbo4lEnqwjSQF0zIpdnMMs+pnql14EXexHO5aTU+2lwQuqQoEMQolpqJdx5721oNvsNkHUw+Hlcgf9Q==",
+  "dgSpecHash": "TggNOxKb4qaOGwi1Lvr4kCkhJmn0oJblmyHo+W6a5lT+XWOAhffYi/Jm7AjPQ2x/RgtPDo8rws3tUYFW1eBa2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BL.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BL\\TourPlanner.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\harfbuzzsharp\\2.8.2.3\\harfbuzzsharp.2.8.2.3.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2.3\\harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",

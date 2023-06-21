@@ -1783,13 +1783,13 @@
     },
     "TourPlanner.BL/1.0.0": {
       "type": "project",
-      "path": "../TourPlanner.BusinessLayer/TourPlanner.BL.csproj",
-      "msbuildProject": "../TourPlanner.BusinessLayer/TourPlanner.BL.csproj"
+      "path": "../TourPlanner.BL/TourPlanner.BL.csproj",
+      "msbuildProject": "../TourPlanner.BL/TourPlanner.BL.csproj"
     },
     "TourPlanner.DAL/1.0.0": {
       "type": "project",
-      "path": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj",
-      "msbuildProject": "../TourPlanner.DataAccessLayer/TourPlanner.DAL.csproj"
+      "path": "../TourPlanner.DAL/TourPlanner.DAL.csproj",
+      "msbuildProject": "../TourPlanner.DAL/TourPlanner.DAL.csproj"
     },
     "TourPlanner.Models/1.0.0": {
       "type": "project",
@@ -1840,8 +1840,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BL.csproj": {
-              "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BusinessLayer\\TourPlanner.BL.csproj"
+            "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BL\\TourPlanner.BL.csproj": {
+              "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.BL\\TourPlanner.BL.csproj"
             },
             "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj": {
               "projectPath": "C:\\Users\\Stefan\\source\\repos\\SWEN2\\TourPlanner\\TourPlanner.Models\\TourPlanner.Models.csproj"
