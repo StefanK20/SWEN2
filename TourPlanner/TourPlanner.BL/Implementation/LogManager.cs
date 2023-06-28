@@ -31,13 +31,9 @@ namespace TourPlanner.BL.Implementation
             return _handler.UpdateLog(log);
         }
 
-        public void DeleteLog(int logId)
+        public void DeleteLog(Log log)
         {
-            var log = _handler.GetLogs(logId).FirstOrDefault();
-            if (log != null)
-            {
                 _handler.DeleteLog(log);
-            }
         }
 
 

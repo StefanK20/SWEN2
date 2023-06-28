@@ -94,7 +94,7 @@ namespace TourPlanner.ViewModels
         {
             if (SelectedLog != null)
             {
-                ManagerFactory.GetLogManager(_logger).DeleteLog(SelectedLog.Id);
+                ManagerFactory.GetLogManager(_logger).DeleteLog(SelectedLog);
                 UpdateStats();
                 return true;
             }
