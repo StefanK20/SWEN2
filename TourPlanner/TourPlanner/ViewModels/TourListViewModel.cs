@@ -11,6 +11,8 @@ using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 using TourPlanner.Views;
 using TourPlanner.BL.Implementation;
+using System.Transactions;
+using System;
 
 namespace TourPlanner.ViewModels
 {
@@ -119,8 +121,19 @@ namespace TourPlanner.ViewModels
 			if (File.Exists(Path.Combine(Directory.GetCurrentDirectory(), SelectedTour.ImagePath))) {
 				File.Delete(Path.Combine(Directory.GetCurrentDirectory(), SelectedTour.ImagePath));
 			}
-			return ManagerFactory.GetTourManager(_logger).DeleteTour(SelectedTour.Id); 
-		}
+            try
+            {
+                ManagerFactory.GetTourManager(_logger).DeleteTour(SelectedTour);
+                // Deletion succeeded
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Failed to delete tour: {ex.Message}");
+                // Deletion failed
+                return false;
+            }
+        }
 
 		public async Task<Tour> GetCreatedTour(Tour tour) {
 			return await ManagerFactory.GetTourManager(_logger).CreateTour(tour);

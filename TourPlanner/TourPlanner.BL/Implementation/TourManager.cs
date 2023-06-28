@@ -6,40 +6,28 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using TourPlanner.BL.Interface;
 using TourPlanner.DAL.Config;
-using TourPlanner.DAL.Interface.DAO;
+using TourPlanner.DAL.Interface.SQL;
 using TourPlanner.DAL.REST;
-using TourPlanner.DAL.SQL;
+using TourPlanner.DAL.Implementation.SQL;
 using TourPlanner.Models;
 
 namespace TourPlanner.BL.Implementation
 {
     public class TourManager : ITourManager
     {
+        private readonly IDataHandler _handler;
         private readonly ILogger _logger;
-        private readonly ITourDAO _tourDao;
 
         public TourManager(ILogger logger)
         {
             _logger = logger;
-            _tourDao = new TourDAO(new Database(), logger);
+           _handler = new DataHandler(_logger);
         }
 
-        public TourManager(ITourDAO tourDao)
-        {
-            _tourDao = tourDao;
-            _logger = new LoggerFactory().CreateLogger("Logger");
-        }
-
-        /// <summary>
-        /// Create a tour by getting the needed information from the http-client,
-        /// creating a db-entry and afterwards saving the image on the filesystem and
-        /// the image-path in the db
-        /// </summary>
-        /// <param name="tour">Has name, description, start, dest., and transport type</param>
-        /// <returns></returns>
         public async Task<Tour> CreateTour(Tour tour)
         {
             return await SaveImage(await SaveInformation(tour));
+
         }
 
         public async Task<Tour> UpdateTour(Tour tour)
@@ -47,19 +35,19 @@ namespace TourPlanner.BL.Implementation
             return await SaveImage(await UpdateInformation(tour));
         }
 
-        public bool DeleteTour(int id)
+        public void DeleteTour(Tour tour)
         {
-            return _tourDao.DeleteTour(id);
+            _handler.DeleteTour(tour);
         }
 
         public IEnumerable<Tour> GetTours()
         {
-            return _tourDao.GetTours();
+            return _handler.GetTours();
         }
 
         public IEnumerable<Tour> SearchTours(string searchTerm)
         {
-            return _tourDao.SearchTours(searchTerm);
+            return _handler.SearchTours(searchTerm);
         }
 
         /// <summary>
@@ -98,12 +86,12 @@ namespace TourPlanner.BL.Implementation
 
         public async Task<Tour> SaveInformation(Tour tour)
         {
-            return _tourDao.AddNewTour(await GetInformation(tour));
+            return _handler.AddTour(await GetInformation(tour));
         }
 
         private async Task<Tour> UpdateInformation(Tour tour)
         {
-            return _tourDao.UpdateTour(await GetInformation(tour));
+            return _handler.UpdateTour(await GetInformation(tour));
         }
 
         /// <summary>
@@ -121,8 +109,8 @@ namespace TourPlanner.BL.Implementation
 
             await File.WriteAllBytesAsync(tour.ImagePath, imageBytes);
 
-            _tourDao.SetImagePath(tour.Id, tour.ImagePath);
-
+            _handler.SetImagePath(tour.Id, tour.ImagePath);
+            _handler.SaveDBChanges();
             return tour;
         }
     }

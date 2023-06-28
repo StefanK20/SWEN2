@@ -32,7 +32,7 @@ namespace TourPlanner.ViewModels
 	        SummarizeReportCommand = new SummarizeReportCommand(logger, tourListViewModel, logListViewModel);
 	        HelpCommand = new RelayCommand(_ => {
 				// Open project README in default web browser
-		        var ps = new ProcessStartInfo("https://github.com/jakobfriedl/tour-planner/blob/main/README.md") {
+		        var ps = new ProcessStartInfo("https://github.com/") {
 			        UseShellExecute = true,
 			        Verb = "open"
 		        };

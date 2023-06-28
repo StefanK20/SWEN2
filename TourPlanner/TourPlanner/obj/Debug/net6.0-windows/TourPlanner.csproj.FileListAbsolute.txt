@@ -99,3 +99,13 @@ C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-wind
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.NET5.resources.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\JObject.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Mono.TextTemplating.dll

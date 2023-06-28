@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using TourPlanner.DAL.Config;
+using TourPlanner.DAL.Implementation.SQL;
 using TourPlanner.DAL.SQL;
 using TourPlanner.Models.Json;
 
@@ -41,24 +42,23 @@ namespace TourPlanner.BL.Implementation
                 return;
             }
 
-            var tourDao = new TourDAO(new Database(), _logger);
-            var logDao = new LogDAO(new Database(), _logger);
+            var handler = new DataHandler(_logger);
 
             var importFile = File.ReadAllText(file);
             var tourObjectList = JsonConvert.DeserializeObject<TourObjectCollection>(importFile);
 
             foreach (var tourObject in tourObjectList.TourObjects)
             {
-                var newTour = tourDao.AddNewTour(tourObject.Tour);
+                var newTour = handler.AddTour(tourObject.Tour);
                 newTour.ImagePath = Path.Combine(ConfigManager.GetConfig().ImageLocation!, $"{newTour.Id}.png");
-                tourDao.SetImagePath(newTour.Id, newTour.ImagePath);
+                handler.SetImagePath(newTour.Id, newTour.ImagePath);
 
                 var imageBytes = Convert.FromBase64String(tourObject.ImageInBase64);
                 File.WriteAllBytesAsync(newTour.ImagePath, imageBytes);
                 foreach (var log in tourObject.Logs)
                 {
                     log.TourId = newTour.Id;
-                    logDao.AddNewLog(log);
+                    handler.AddLog(log);
                 }
             }
         }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using TourPlanner.BL.Interface;
-using TourPlanner.DAL.Interface.DAO;
+using TourPlanner.DAL.Implementation.SQL;
+using TourPlanner.DAL.Interface.SQL;
 using TourPlanner.DAL.SQL;
 
 namespace TourPlanner.BL.Implementation
@@ -8,37 +9,32 @@ namespace TourPlanner.BL.Implementation
     public class StatManager : IStatManager
     {
         private readonly ILogger _logger;
-        private readonly IStatDAO _statDao;
+        private readonly IDataHandler _handler;
 
         public StatManager(ILogger logger)
         {
             _logger = logger;
-            _statDao = new StatDAO(new Database(), logger);
-        }
-
-        public StatManager(IStatDAO statDao)
-        {
-            _statDao = statDao;
+            _handler = new DataHandler(logger);
         }
 
         public int GetLogCount(int id)
         {
-            return _statDao.GetLogCount(id);
+            return _handler.GetLogCount(id);
         }
 
         public double GetAvgRating(int id)
         {
-            return _statDao.GetAvgRating(id);
+            return _handler.GetAvgRating(id);
         }
 
         public double GetAvgDifficulty(int id)
         {
-            return _statDao.GetAvgDifficulty(id);
+            return _handler.GetAvgDifficulty(id);
         }
 
         public int GetAvgDuration(int id)
         {
-            return _statDao.GetAvgDuration(id);
+            return _handler.GetAvgDuration(id);
         }
 
         /// <summary>

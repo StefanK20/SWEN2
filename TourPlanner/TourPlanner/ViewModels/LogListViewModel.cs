@@ -89,12 +89,18 @@ namespace TourPlanner.ViewModels
         private IEnumerable<Log> GetLogs(Tour selectedTour) {
             return ManagerFactory.GetLogManager(_logger).GetLogs(selectedTour.Id);
         }
-        
-        public bool DeleteLog() {
-	        var r = ManagerFactory.GetLogManager(_logger).DeleteLog(SelectedLog.Id);
-	        UpdateStats();
-	        return r; 
+
+        public bool DeleteLog()
+        {
+            if (SelectedLog != null)
+            {
+                ManagerFactory.GetLogManager(_logger).DeleteLog(SelectedLog.Id);
+                UpdateStats();
+                return true;
+            }
+            return false;
         }
+
 
         public Log GetCreatedLog(Log log) {
 	        log = ManagerFactory.GetLogManager(_logger).CreateLog(log);

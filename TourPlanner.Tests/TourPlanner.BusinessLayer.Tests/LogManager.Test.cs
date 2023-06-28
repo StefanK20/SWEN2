@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using TourPlanner.BL;
+using TourPlanner.BL.Implementation;
 using TourPlanner.BL.Interface;
 using TourPlanner.DAL.Interface.DAO;
 using TourPlanner.Models;
@@ -22,7 +22,7 @@ namespace TourPlannerBL.Tests
 		    var mockDao = new Mock<ILogDAO>();
 		    mockDao
 			    .Setup(dao => dao.GetLogsByTourId(0))
-			    .Returns(new ObservableCollection<Log> { _log, _log2 });
+			    .Returns(new ObservableCollection<Log> { _log, _log2, });
 		    mockDao
 			    .Setup(dao => dao.AddNewLog(_log))
 			    .Returns(_fullLog);

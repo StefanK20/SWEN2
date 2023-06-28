@@ -1,6 +1,6 @@
 ﻿using Moq;
 using NUnit.Framework;
-using TourPlanner.BL;
+using TourPlanner.BL.Implementation;
 using TourPlanner.BL.Interface;
 using TourPlanner.DAL.Interface.DAO;
 

@@ -1,46 +1,49 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using TourPlanner.BL.Interface;
-using TourPlanner.DAL.Interface.DAO;
-using TourPlanner.DAL.SQL;
+using TourPlanner.DAL.Interface.SQL;
+using TourPlanner.DAL.Implementation.SQL;
 using TourPlanner.Models;
+using System.Linq;
 
 namespace TourPlanner.BL.Implementation
 {
     public class LogManager : ILogManager
     {
         private readonly ILogger _logger;
-        private readonly ILogDAO _logDao;
+        private readonly IDataHandler _handler;
 
         public LogManager(ILogger logger)
         {
             _logger = logger;
-            _logDao = new LogDAO(new Database(), logger);
+            _handler = new DataHandler(logger);
         }
 
-        public LogManager(ILogDAO logDao)
-        {
-            _logDao = logDao;
-        }
+        
 
         public Log CreateLog(Log log)
         {
-            return _logDao.AddNewLog(log);
+            return _handler.AddLog(log);
         }
 
         public Log UpdateLog(Log log)
         {
-            return _logDao.UpdateLog(log);
+            return _handler.UpdateLog(log);
         }
 
-        public bool DeleteLog(int id)
+        public void DeleteLog(int logId)
         {
-            return _logDao.DeleteLog(id);
+            var log = _handler.GetLogs(logId).FirstOrDefault();
+            if (log != null)
+            {
+                _handler.DeleteLog(log);
+            }
         }
+
 
         public IEnumerable<Log> GetLogs(int tourId)
         {
-            return _logDao.GetLogsByTourId(tourId);
+            return _handler.GetLogs(tourId);
         }
     }
 }

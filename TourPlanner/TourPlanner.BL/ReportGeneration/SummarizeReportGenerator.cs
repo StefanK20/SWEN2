@@ -6,6 +6,7 @@ using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using TourPlanner.DAL.Config;
+using TourPlanner.DAL.Implementation.SQL;
 using TourPlanner.DAL.SQL;
 using TourPlanner.Models;
 
@@ -16,7 +17,7 @@ namespace TourPlanner.BL.ReportGeneration {
 
 		public void CreateSummarizeReport(ILogger logger, ObservableCollection<Tour> tours,
 			ObservableCollection<Log> logs) {
-			var stats = new StatDAO(new Database(), logger);
+			var stats = new DataHandler(logger);
 			_logs = logs;
 			_tours = tours;
 
