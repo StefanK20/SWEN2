@@ -19,6 +19,7 @@ namespace TourPlanner.DAL.Implementation.SQL
 
         public DataHandler(ILogger logger)
         {
+            context.Database.EnsureCreated();
             _logger = logger;
         }
 

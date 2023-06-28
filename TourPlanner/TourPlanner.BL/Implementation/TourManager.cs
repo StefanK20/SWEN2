@@ -102,15 +102,16 @@ namespace TourPlanner.BL.Implementation
         private async Task<Tour> SaveImage(Tour tour)
         {
             var http = new HttpRequest(_logger, new HttpClient());
-
+            _handler.SaveDBChanges();
             // Save image from REST Request to png-File
             var imageBytes = await http.GetTourImageBytes(tour);
             tour.ImagePath = Path.Combine(ConfigManager.GetConfig().ImageLocation!, $"{tour.Id}.png");
 
             await File.WriteAllBytesAsync(tour.ImagePath, imageBytes);
 
+            
             _handler.SetImagePath(tour.Id, tour.ImagePath);
-            _handler.SaveDBChanges();
+            
             return tour;
         }
     }

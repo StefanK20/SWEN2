@@ -5,10 +5,22 @@
 namespace TourPlanner.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class OriginalMigration : Migration
+    public partial class UpdateTourModel : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AlterColumn<string>(
+                name: "ImagePath",
+                table: "Tours",
+                type: "text",
+                nullable: true,
+                oldClrType: typeof(string),
+                oldType: "text");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<string>(
                 name: "ImagePath",
@@ -19,18 +31,6 @@ namespace TourPlanner.DAL.Migrations
                 oldClrType: typeof(string),
                 oldType: "text",
                 oldNullable: true);
-        }
-
-        /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.AlterColumn<string>(
-                name: "ImagePath",
-                table: "Tours",
-                type: "text",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "text");
         }
     }
 }

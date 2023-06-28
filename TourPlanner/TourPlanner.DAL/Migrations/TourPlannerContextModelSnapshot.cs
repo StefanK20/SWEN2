@@ -103,7 +103,6 @@ namespace TourPlanner.DAL.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Name")

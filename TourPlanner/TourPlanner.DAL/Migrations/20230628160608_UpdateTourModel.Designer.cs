@@ -12,8 +12,8 @@ using TourPlanner.DAL.SQL;
 namespace TourPlanner.DAL.Migrations
 {
     [DbContext(typeof(TourPlannerContext))]
-    [Migration("20230627125502_OriginalMigration")]
-    partial class OriginalMigration
+    [Migration("20230628160608_UpdateTourModel")]
+    partial class UpdateTourModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -106,7 +106,6 @@ namespace TourPlanner.DAL.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Name")

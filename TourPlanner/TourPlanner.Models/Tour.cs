@@ -12,7 +12,7 @@ namespace TourPlanner.Models
 		public TransportType TransportType { get; set; }
 		public double Distance { get; set; } = 0;
 		public int EstimatedTime { get; set; } = 0; 
-		public string ImagePath { get; set; }
+		public string? ImagePath { get; set; }
 		public double? Popularity { get; set; } = 0;
 		public double? ChildFriendliness { get; set; } = 0;
 
