@@ -62,10 +62,16 @@ namespace TourPlanner.ViewModels
 			}
 		}
 
-		/// <summary>
-		/// Constructor for TourListViewModel, Gets tours from database and initializes commands
-		/// </summary>
-		public TourListViewModel(ILogger logger, LogListViewModel logListViewModel) {
+        /// <summary>
+        /// Constructor for TourListViewModel, Gets tours from database and initializes commands
+        /// </summary>
+
+        public TourListViewModel()
+        {
+            // Parameterless constructor logic
+        }
+
+        public TourListViewModel(ILogger logger, LogListViewModel logListViewModel) {
 			_logger = logger; 
 			LogListViewModel = logListViewModel;
 

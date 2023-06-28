@@ -4,16 +4,16 @@
 exe
 C#
 .cs
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\obj\Debug\net6.0-windows\
+C:\Users\User\OneDrive\Dokumente\GitHub\SWEN2\TourPlanner\TourPlanner\obj\Debug\net6.0-windows\
 TourPlanner
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\App.xaml
+C:\Users\User\OneDrive\Dokumente\GitHub\SWEN2\TourPlanner\TourPlanner\App.xaml
 101421576588
 
 34786472527
-232591218219
+2321670449774
 MainWindow.xaml;Views\LogDialog.xaml;Views\LogList.xaml;Views\MenuStrip.xaml;Views\SearchBar.xaml;Views\TourDetails.xaml;Views\TourDialog.xaml;Views\TourInformation.xaml;Views\TourList.xaml;Views\TourRoute.xaml;
 
 False

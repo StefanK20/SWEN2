@@ -70,5 +70,9 @@ namespace TourPlanner.Models
 			DisplayDistance = $"{Math.Round(distance, 2)} km";
 			DisplayTime = TimeSpan.FromSeconds(EstimatedTime).ToString("G").Split(',')[0];
 		}
-	}
+
+        public Tour()
+        {
+        }
+    }
 }

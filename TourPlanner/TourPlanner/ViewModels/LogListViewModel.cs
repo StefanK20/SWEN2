@@ -37,7 +37,7 @@ namespace TourPlanner.ViewModels
 
         public string LogListHeading { get; set; } = "Logs";
         public ObservableCollection<Log> Logs { get; set; } = new();
-
+        public LogListViewModel() { }
         public LogListViewModel(ILogger logger) {
 	        _logger = logger;
         }
