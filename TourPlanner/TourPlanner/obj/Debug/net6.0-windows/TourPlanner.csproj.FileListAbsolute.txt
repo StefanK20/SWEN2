@@ -72,12 +72,6 @@ C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-wind
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\TourPlanner.BL.pdb
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\TourPlanner.DAL.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\TourPlanner.DAL.pdb
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
-C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.NET5.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll
 C:\Users\Stefan\source\repos\SWEN2\TourPlanner\TourPlanner\bin\Debug\net6.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll

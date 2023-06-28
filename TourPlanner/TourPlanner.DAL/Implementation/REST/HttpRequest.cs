@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using TourPlanner.DAL.Config;
 using TourPlanner.Models;
 using TourPlanner.DAL.Interface.REST;
+using System;
 
 namespace TourPlanner.DAL.REST
 {
@@ -30,7 +31,9 @@ namespace TourPlanner.DAL.REST
 			var json = JsonNode.Parse(await _client.GetStringAsync(url));
 			tour.Distance = json["route"]["distance"].GetValue<double>();
 			tour.EstimatedTime = json["route"]["time"].GetValue<int>();
-			return tour;
+            tour.DisplayDistance = $"{Math.Round(tour.Distance, 2)} km";
+            tour.DisplayTime = TimeSpan.FromSeconds(tour.EstimatedTime).ToString("G").Split(',')[0];
+            return tour;
 		}
 
 		/// <summary>

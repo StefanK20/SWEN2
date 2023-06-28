@@ -85,7 +85,7 @@
             },
             "QuestPDF": {
               "target": "Package",
-              "version": "[2023.5.3, )"
+              "version": "[2022.5.0, )"
             }
           },
           "imports": [
@@ -209,7 +209,7 @@
             },
             "QuestPDF": {
               "target": "Package",
-              "version": "[2023.5.3, )"
+              "version": "[2022.5.0, )"
             }
           },
           "imports": [
@@ -285,7 +285,7 @@
             },
             "QuestPDF": {
               "target": "Package",
-              "version": "[2023.5.3, )"
+              "version": "[2022.5.0, )"
             }
           },
           "imports": [

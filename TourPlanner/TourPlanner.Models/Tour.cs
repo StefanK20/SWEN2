@@ -53,22 +53,5 @@ namespace TourPlanner.Models
 			TransportType = transportType;
 		}
 
-		public Tour(int id, string name, string description, string start, string destination, TransportType transportType, double distance, int estimatedTime, string imagePath, double popularity, double childFriendliness)
-		{
-			Id = id;
-			Name = name;
-			Description = description;
-			Start = start;
-			Destination = destination;
-			TransportType = transportType;
-			Distance = distance;
-			EstimatedTime = estimatedTime;
-			ImagePath = imagePath;
-			Popularity = popularity;
-			ChildFriendliness = childFriendliness;
-
-			DisplayDistance = $"{Math.Round(distance, 2)} km";
-			DisplayTime = TimeSpan.FromSeconds(EstimatedTime).ToString("G").Split(',')[0];
-		}
 	}
 }
