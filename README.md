@@ -3,8 +3,9 @@
 
 **GitHub Link**
 
-https://www.github.com/
-After cloning everything, to set up the database one must change directory to TourPlanner.DAL and enter “Add-Migration InitialCreate” in the Package Manager Console. After that, while pgAdmin is open or any other database of your choice, one must enter “Update-Database” in the Package Manager console and the database “tourplanner” with the two tables “Tours” and “Logs” should be created:
+https://www.github.com/StefanK20/SWEN2
+
+After cloning everything, to set up the database one must change directory to TourPlanner.DAL and enter “Add-Migration InitialCreate” in the Package Manager Console. If the Folder "Migrations" still exist, you will have to remove it first. After that, while pgAdmin is open or any other database of your choice, one must enter “Update-Database” in the Package Manager console and the database “tourplanner” with the two tables “Tours” and “Logs” should be created.
  
 For more information on the database configuration and more see TourPlanner/Config/settings.json.
 
