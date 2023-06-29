@@ -24,7 +24,6 @@ The Unit Tests are in a project called “TourPlanner.Tests” and the Models in
 The implemented patterns were:
 -	Command Pattern
 -	Factory Pattern
--	Observer Pattern
 
 
 
