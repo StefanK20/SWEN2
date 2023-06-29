@@ -23,6 +23,10 @@ namespace TourPlanner.DAL.Implementation.SQL
             _logger = logger;
         }
 
+        public DataHandler(ILogger logger, TourPlannerContext @object) : this(logger)
+        {
+        }
+
         public Tour AddTour(Tour newTour)
         {
             context.Tours.Add(newTour);

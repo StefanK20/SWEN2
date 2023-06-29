@@ -9,8 +9,8 @@ public class MainWindowViewModel : BaseViewModel {
 	public TourDetailsViewModel TourDetailsViewModel { get; }
 	public TourListViewModel TourListViewModel { get; }
 	public LogListViewModel LogListViewModel { get; }
-
-	public MainWindowViewModel(SearchBarViewModel searchBarViewModel, 
+    
+    public MainWindowViewModel(SearchBarViewModel searchBarViewModel, 
 		MenuStripViewModel menuStripViewModel,
 		TourListViewModel tourListViewModel, 
 		TourDetailsViewModel tourDetailsViewModel,

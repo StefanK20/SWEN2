@@ -10,6 +10,12 @@ namespace TourPlanner.BL.Implementation
 {
     public class LogManager : ILogManager
     {
+        //mock constructor
+        public LogManager(ILogger logger, IDataHandler @object) : this(logger)
+        {
+        }
+
+
         private readonly ILogger _logger;
         private readonly IDataHandler _handler;
 
@@ -19,7 +25,6 @@ namespace TourPlanner.BL.Implementation
             _handler = new DataHandler(logger);
         }
 
-        
 
         public Log CreateLog(Log log)
         {

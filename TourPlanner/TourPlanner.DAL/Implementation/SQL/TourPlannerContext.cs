@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using TourPlanner.Models;
-using Npgsql;
 
 namespace TourPlanner.DAL.SQL
 {
@@ -11,8 +11,24 @@ namespace TourPlanner.DAL.SQL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            // Build the configuration
+            var config = new ConfigurationBuilder()
+                .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+                .AddJsonFile("Config/settings.json")
+                .Build();
+
+            // Get the database configuration section
+            var dbConfig = config.GetSection("db");
+
+            // Retrieve the connection string values from the config
+            var host = dbConfig["host"];
+            var port = dbConfig["port"];
+            var username = dbConfig["username"];
+            var password = dbConfig["password"];
+            var database = dbConfig["database"];
+
             // Set the connection string and configure the database provider
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=tourplanner;Username=postgres;Password=postgres");
+            optionsBuilder.UseNpgsql($"Host={host};Port={port};Database={database};Username={username};Password={password}");
         }
     }
 }

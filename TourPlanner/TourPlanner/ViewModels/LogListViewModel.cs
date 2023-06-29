@@ -8,6 +8,7 @@ using TourPlanner.ViewModels.Interface;
 using TourPlanner.ViewModels.Commands;
 using TourPlanner.Views;
 using TourPlanner.BL.Implementation;
+using Moq;
 
 namespace TourPlanner.ViewModels
 {
@@ -37,9 +38,13 @@ namespace TourPlanner.ViewModels
 
         public string LogListHeading { get; set; } = "Logs";
         public ObservableCollection<Log> Logs { get; set; } = new();
-
+        public LogListViewModel() { }
         public LogListViewModel(ILogger logger) {
 	        _logger = logger;
+        }
+
+        public LogListViewModel(global::Moq.Mock<ILogger> loggerMock)
+        {
         }
 
         public void UpdateView(Tour? selectedTour) {
@@ -76,8 +81,8 @@ namespace TourPlanner.ViewModels
 
         public void RemoveSelectedLog() {
 	        var toRemove = SelectedLog;
-	        SelectedLog = Logs.FirstOrDefault()!;
 	        Logs.Remove(toRemove);
+            SelectedLog = Logs.FirstOrDefault()!;
         }
 
         public void ReplaceLog(Log log) {

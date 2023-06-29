@@ -18,6 +18,11 @@ namespace TourPlanner.ViewModels
         public ICommand SummarizeReportCommand { get; }
         public ICommand HelpCommand { get; }
 
+        public MenuStripViewModel()
+        {
+            // Parameterless constructor logic
+        }
+
         public MenuStripViewModel(ILogger logger, TourListViewModel tourListViewModel,
 	        LogListViewModel logListViewModel) {
 	        OpenSettingsCommand = new OpenSettingsCommand();

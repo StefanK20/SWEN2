@@ -60,5 +60,9 @@ namespace TourPlanner.Models
 
 	        DisplayTime = TimeSpan.FromSeconds(TotalTime).ToString("G").Split(",")[0]; 
         }
+
+        public Log()
+        {
+        }
     }
 }

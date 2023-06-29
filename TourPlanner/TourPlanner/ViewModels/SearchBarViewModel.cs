@@ -13,9 +13,14 @@ namespace TourPlanner.ViewModels
     {
 		private readonly ILogger _logger;
 		public ICommand SearchCommand { get; }
-		public string SearchTerm { get; set; } = string.Empty; 
+		public string SearchTerm { get; set; } = string.Empty;
 
-		public SearchBarViewModel(ILogger logger, TourListViewModel tourListViewModel) {
+        public SearchBarViewModel()
+        {
+            // Parameterless constructor logic
+        }
+
+        public SearchBarViewModel(ILogger logger, TourListViewModel tourListViewModel) {
 			_logger = logger; 
 			SearchCommand = new RelayCommand((_) => {
 				tourListViewModel.Tours = new ObservableCollection<Tour>(SearchTours());

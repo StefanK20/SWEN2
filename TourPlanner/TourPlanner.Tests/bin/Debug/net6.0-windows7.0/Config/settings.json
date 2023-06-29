@@ -1,0 +1,13 @@
+﻿{
+  "image-location": "Resources\\tour-img",
+  "report-location": "Resources/reports",
+  "export-location": "Resources\\exports",
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "tourplanner"
+  },
+  "api-key": "DnXe9h0wKnhRs6TfJ1Aj2Sgd8swFx3if"
+}
